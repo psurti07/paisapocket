@@ -2,7 +2,7 @@
 <div class="owl-carousel owl-theme reviews-1-wrapper">
     <div class="review-1 bg--white-100 block-shadow r-08">
         <div class="review-txt pt-30">
-            <p class="p-md"><i>"I used the <strong>Hire Loan Agent</strong> option on Easy AI Loans and it made the whole process very smooth. The loan expert helped me step by step and handled the bank coordination. It saved me a lot of time and effort."</i></p>
+            <p class="p-md"><i>"I used the <strong>Hire Loan Agent</strong> option on PaisaPocket and it made the whole process very smooth. The loan expert helped me step by step and handled the bank coordination. It saved me a lot of time and effort."</i></p>
             <div class="author-data clearfix">
                 <div class="review-avatar">
                     <img src="{{ asset('front/images/logo/apple-touch-icon.png') }}" alt="review-avatar" width="auto">
@@ -62,7 +62,7 @@
     </div>
     <div class="review-1 bg--white-100 block-shadow r-08">
         <div class="review-txt pt-30">
-            <p class="p-md"><i>"The <strong>Self Apply</strong> option is perfect if you want to manage everything yourself. I liked that Easy AI Loans provided professional consultation and direct links to apply with lenders."</i></p>
+            <p class="p-md"><i>"The <strong>Self Apply</strong> option is perfect if you want to manage everything yourself. I liked that PaisaPocket provided professional consultation and direct links to apply with lenders."</i></p>
             <div class="author-data clearfix">
                 <div class="review-avatar">
                     <img src="{{ asset('front/images/logo/apple-touch-icon.png') }}" alt="review-avatar" width="auto">
@@ -102,7 +102,7 @@
     </div>
     <div class="review-1 bg--white-100 block-shadow r-08">
         <div class="review-txt pt-30">
-            <p class="p-md"><i>“I liked the flexibility Easy AI Loans gives. You can either <strong>apply yourself</strong> or <strong> hire an expert agent</strong>. I used the self apply option and the process was quick and transparent.”</i></p>
+            <p class="p-md"><i>“I liked the flexibility PaisaPocket gives. You can either <strong>apply yourself</strong> or <strong> hire an expert agent</strong>. I used the self apply option and the process was quick and transparent.”</i></p>
             <div class="author-data clearfix">
                 <div class="review-avatar">
                     <img src="{{ asset('front/images/logo/apple-touch-icon.png') }}" alt="review-avatar" width="auto">

@@ -128,7 +128,7 @@
                                                                     <tr>
                                                                         <td class="es-m-p20b" align="left"
                                                                             style="padding: 0; margin: 0; width: 600px;">
-                                                                            <h3 style="text-align:center; color: #0e5281;font-family: Poppins, sans-serif;">
+                                                                            <h3 style="text-align:center; color: #0f543f;font-family: Poppins, sans-serif;">
                                                                                 Personal Details / Subscription Details
                                                                             </h3>
                                                                             <hr>
@@ -200,7 +200,7 @@
                                                                     <tr>
                                                                         <td class="es-m-p20b" align="left"
                                                                             style="padding: 0; margin: 0; width: 600px;">
-                                                                            <h3 style="text-align:center; color: #0e5281;font-family: Poppins, sans-serif;">
+                                                                            <h3 style="text-align:center; color: #0f543f;font-family: Poppins, sans-serif;">
                                                                                 Agent Details
                                                                             </h3>
                                                                             <hr>
@@ -257,10 +257,10 @@
                                                                                                                                         <tr>
                                                                         <td class="es-m-p20b" align="left"
                                                                             style="padding: 0; margin: 0; width: 600px;">
-                                                                            <h3 style="text-align:center; color: #0e5281;font-family: Poppins, sans-serif;">
+                                                                            <h3 style="text-align:center; color: #0f543f;font-family: Poppins, sans-serif;">
                                                                                 Pre-Approved Offers
                                                                             </h3>
-                                                                            <span style="display:flex; justify-content:center; color: #0e5281;font-family: Poppins, sans-serif;">Loan Amount - ₹&nbsp;<strong>{{ formatePriceIndia($offers[0]->loanAmount) }}</strong></span>
+                                                                            <span style="display:flex; justify-content:center; color: #0f543f;font-family: Poppins, sans-serif;">Loan Amount - ₹&nbsp;<strong>{{ formatePriceIndia($offers[0]->loanAmount) }}</strong></span>
                                                                             <hr>
                                                                             <table class="offers-table">
                                                                                 <thead>
@@ -321,7 +321,7 @@
                                                                                                                                         <tr>
                                                                         <td class="es-m-p20b" align="left"
                                                                             style="padding: 0; margin: 0; width: 600px;">
-                                                                            <h3 style="text-align:center; color: #0e5281; font-family: Poppins, sans-serif;">
+                                                                            <h3 style="text-align:center; color: #0f543f; font-family: Poppins, sans-serif;">
                                                                                 Service Timeline
                                                                             </h3>
                                                                             <hr>

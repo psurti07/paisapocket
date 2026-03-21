@@ -442,7 +442,7 @@
             transition: all 0.3s ease;
         }
         a:hover {
-            color: #0e5281;
+            color: #0f543f;
         }
 
         button {
@@ -507,7 +507,7 @@
         }
 
         a:hover {
-            color: #0e5281;
+            color: #0f543f;
         }
 
         ul {
@@ -857,12 +857,12 @@
 
         .tm_accent_color,
         .tm_accent_color_hover:hover {
-            color: #0e5281;
+            color: #0f543f;
         }
 
         .tm_accent_bg,
         .tm_accent_bg_hover:hover {
-            background-color: #0e5281;
+            background-color: #0f543f;
         }
 
         .tm_accent_bg_10 {
@@ -927,7 +927,7 @@
         }
 
         .tm_accent_border {
-            border-color: #0e5281;
+            border-color: #0f543f;
         }
 
         .tm_accent_border_10 {
@@ -1907,7 +1907,7 @@
             }
             .tm_invoice_btn.tm_color1 {
                 background-color: rgb(242 238 251);
-                color: #0e5281;
+                color: #0f543f;
                 border-radius: 5px 5px 0 0;
             }
             .tm_invoice_btn.tm_color1:hover {
@@ -1979,7 +1979,7 @@
             }
             .tm_invoice_btn.tm_color1 {
                 background-color: rgb(242 238 251);
-                color: #0e5281;
+                color: #0f543f;
             }
             .tm_invoice_btn.tm_color1:hover {
                 background-color: rgba(0, 122, 255, 0.2);
@@ -2337,7 +2337,7 @@
                 -webkit-print-color-adjust: exact;
             }
             .tm_accent_bg {
-                background-color: #0e5281;
+                background-color: #0f543f;
                 -webkit-print-color-adjust: exact;
             }
             .tm_accent_bg_10 {
@@ -2353,7 +2353,7 @@
                 -webkit-print-color-adjust: exact;
             }
             .tm_accent_color {
-                color: #0e5281 !important;
+                color: #0f543f !important;
                 -webkit-print-color-adjust: exact;
             }
             .tm_ternary_color {

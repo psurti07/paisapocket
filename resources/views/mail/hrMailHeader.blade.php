@@ -460,7 +460,7 @@
                                                                     role="presentation"
                                                                     >
                                                                     <tr>
-                                                                        <td align="left" style="padding: 20px; margin: 0; line-height: 2rem;border: 1px solid #0e5281;
+                                                                        <td align="left" style="padding: 20px; margin: 0; line-height: 2rem;border: 1px solid #0f543f;
                                                                             border-radius: 12px;
                                                                             background-color: #E9F2FB;">
                                                                             @yield('content')

@@ -294,14 +294,14 @@
                                                             <p style="color: #1ebc62; font-size: 14px; margin: 0;">
                                                                 Monthly Income*
                                                                 <br />
-                                                                <strong style="color: #353f4f; display: block; font-size: 18px; padding-top: 5px;">₹ {{ formatePriceIndia($loanData->monthly_income) }}</strong>
+                                                                <strong style="color: #bb9c4a; display: block; font-size: 18px; padding-top: 5px;">₹ {{ formatePriceIndia($loanData->monthly_income) }}</strong>
                                                             </p>
                                                         </td>
                                                         <td align="left" style="font-family: Poppins, sans-serif; margin: 0; line-height: 1.5rem; border-radius: 12px; color: #000; font-size: 16px; width: 33.33%; text-align: center;">
                                                             <p style="color: #1ebc62; font-size: 14px; margin: 0;">
                                                                 Current EMI*
                                                                 <br />
-                                                                <strong style="color: #353f4f; display: block; font-size: 18px; padding-top: 5px;">₹ {{ formatePriceIndia($loanData->currentemi) }}</strong>
+                                                                <strong style="color: #bb9c4a; display: block; font-size: 18px; padding-top: 5px;">₹ {{ formatePriceIndia($loanData->currentemi) }}</strong>
                                                             </p>
                                                         </td>
                                                     </tr>

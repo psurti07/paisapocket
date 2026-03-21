@@ -13,8 +13,8 @@
     }
 
     .radio:checked {
-        background: #0e5281;
-        border-color: #0e5281;
+        background: #0f543f;
+        border-color: #0f543f;
     }
 
     .owl-carousel .owl-item img {
@@ -66,7 +66,7 @@
 <section id="hero-202" class="bg--white-100 bg--fixed hero-section">
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-md-6 col-lg-6 align-items-center m-auto self-apply-form">
+            <div class="col-md-9 col-lg-9 align-items-center m-auto self-apply-form">
                 <div id="hero-8-form" class="border border-primary r-06">
                     <h4 class="s-20 w-700 mb-2">Apply in <span class="color--green-500">5 Minutes</span></h4>
                     <p class="s-16">Get instant pre-approved offers.</p>
@@ -133,32 +133,16 @@
 
                         <p class="mb-0 s-14 text-start text-dark">By submitting the form and proceeding, you agree to the <a href="{{ route('front.terms.conditions') }}" target="_blank" class="text-dark text-decoration-none">Terms of Use</a> and <a href="{{ route('front.privacy.policy') }}" class="text-dark text-decoration-none" target="_blank">Privacy Policy</a> of <a href="{{ route('front.home') }}" class="text-dark text-decoration-none" target="_blank">Paisapocket.com.</a></p>
                     </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Affiliate NBFCs section starts -->
-<section id="integrations-2" class="pt-0 pb-40 integrations-section">
-    <div class="container">
-        <div class="r-12 text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-12 col-lg-12">
-                    <div class="section-title mb-50">
-                        <h2 class="s-28">Trusted by the <span class="color--green-500">Best in the Industry</span></h2>
-                        <p class="s-16 color--grey">Partnering with the best NBFCs to provide the best for our customers.</p>
-                    </div>
-                </div>
-            </div>
-            @php
-            $lists = nbfcsList();
-            @endphp
-            <div class="bank-crousel">
-                <div class="row">
-                    <div class="col text-center">
-                        <div class="owl-carousel brands-carousel-6 emi-carousel">
-                            {!! $lists['carousel'] !!}
+                    @php
+                    $lists = nbfcsList();
+                    @endphp
+                    <div class="bank-crousel mt-30">
+                        <div class="row">
+                            <div class="col text-center">
+                                <div class="owl-carousel brands-carousel-3 emi-carousel">
+                                    {!! $lists['carousel'] !!}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -166,14 +150,13 @@
         </div>
     </div>
 </section>
-<!-- Affiliate NBFCs section ends -->
 
-<section id="features-6" class="py-80 features-section division">
+<section id="features-6" class=" features-section division">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10 col-lg-9">
                 <div class="section-title mb-50">
-                    <h2 class="s-28">Why <span class="color--green-500">Easy AI Loans</span></h2>
+                    <h2 class="s-28">Why <span class="color--green-500">PaisaPocket</span></h2>
                     <p class="s-16 color--grey">Here's What Sets Our Platform Apart</p>
                 </div>
             </div>

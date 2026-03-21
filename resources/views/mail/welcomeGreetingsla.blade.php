@@ -112,7 +112,7 @@
                                                                                         <td align="center"
                                                                                             style="padding: 20px; margin: 0; line-height: 2rem;    background-color: #b4c7d5;border-top-right-radius:12px;border-top-left-radius:12px;">
                                                                                             <p
-                                                                                                style="font-size:2.2rem;color:#0e5281;font-weight:600">
+                                                                                                style="font-size:2.2rem;color:#0f543f;font-weight:600">
                                                                                                 Congratulations! 
                                                                                             </p>
                                                                                         </td>
@@ -154,18 +154,18 @@
                                                             style="padding: 0; margin: 0; padding-top: 10px; padding-bottom: 10px;">
                                                             <table cellpadding="0" cellspacing="0" class="es-left"
                                                                 align="left"
-                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #b4c7d5;border: 1px solid #0e5281;  border-radius: 12px; display: block;">
+                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #b4c7d5;border: 1px solid #0f543f;  border-radius: 12px; display: block;">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td class="es-m-p20b" align="left"
                                                                             style="padding: 0; margin: 0; width: 600px;">
-                                                                            <h3 style="text-align:center; color: #0e5281;">
+                                                                            <h3 style="text-align:center; color: #0f543f;">
                                                                                 Order Details
                                                                             </h3>
                                                                             <hr>
                                                                             <table cellpadding="0" cellspacing="0"
                                                                                 width="100%" bgcolor="#ffffff"
-                                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: separate;border-spacing: 0; border-radius: 15px;/* border: 1px solid #0e5281; */ background-color: transparent;"
+                                                                                style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: separate;border-spacing: 0; border-radius: 15px;/* border: 1px solid #0f543f; */ background-color: transparent;"
                                                                                 role="presentation">
                                                                                 <tbody>
                                                                                     <tr>

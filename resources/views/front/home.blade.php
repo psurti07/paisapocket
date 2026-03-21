@@ -9,174 +9,47 @@
 
 @endpush
 @section('content')
-<!-- main section starts -->
-<section id="hero-7" class="hero-section bg--green-100 bg--scroll">
-    <!-- <div class="hero-overlay"> -->
-    <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-md-6 col-lg-6 col-12">
-                <div class="hero-7-txt">
-                    <div class=" mt-lg-5 mb-lg-5">
-                        <h1 class="s-40 w-700">We Design Your Roadmap to <span class="color--green-500">Financial Success</span></h1>
-                        <p class="mb-20">Take confident steps toward your goals with structured guidance and technology-powered loan assistance.</p>
-                        <a href="{{ route('self.apply.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Self Apply</a>
-                        <a href="{{ route('loan.agent.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Hire an Agent</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-12 ">
-                <div class="hero-7-img d-flex justify-content-center align-items-start">
-                    <img src="{{ asset('front/images/home-section.png') }}" alt="paisapocket" class="img-fluid p-0">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- </div> -->
-</section>
-<!-- main section ends -->
 
-<!-- Our Partners section start  -->
-<section id="integrations-2" class="py-80 integrations-section">
-    <div class="container">
-        <div class="r-12 text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-10 col-lg-10">
-                    <div class="section-title mb-50">
-                        <h2 class="s-28">Backed by Trusted <span class="color--green-500">Lending Institutions</span></h2>
-                        <p class="s-16 color--grey">We collaborate with top NBFCs to expand structured credit access across India.</p>
-                    </div>
-                </div>
-            </div>
-            @php
-            $lists = nbfcsList();
-            @endphp
-
-            <div class="bank-crousel">
-                <div class="row">
-                    <div class="col text-center">
-                        <div class="owl-carousel brands-carousel-6 emi-carousel">
-                            {!! $lists['carousel'] !!}
+<section id="hero-7" class="hero-section bg--green-100 bg--scroll position-relative pb-0">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 p-0">
+                <div class="owl-carousel custom-slider">
+                    <div class="item">
+                        <div class="slide-box">
+                            <img src="{{ asset('front/images/hero-section.jpg') }} " alt="">
                         </div>
+                    </div>
+                    <div class="item">
+                        <div class="slide-box">
+                            <img src="{{ asset('front/images/hero-section.jpg') }} " alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="hero-main">
+                <div class="hero-content">
+                    <h1 class="s-40 w-700 ">We Design Your Roadmap to <br> Financial Success</span></h1>
+                    <p class="mb-20 s-16 ">Take confident steps toward your goals with structured guidance and
+                        technology-powered loan assistance.</p>
+                    <div class="d-flex justify-content-start">
+                        <a href="{{ route('self.apply.main') }}"
+                            class="btn r-04 btn--theme hover--tra-black last-link me-2">Self Apply</a>
+                        <a href="{{ route('loan.agent.main') }}" class="btn r-04 btn--theme hover--tra-black last-link">Hire
+                            an Agent</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- Our Partners section end  -->
 
-<section class="py-80 ct-02 content-section division bg--green-100" id="company">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-9">
-                <div class="section-title mb-40">
-                    <h2 class="s-28">About <span class="color--green-500">Easy AI Loans</span></h2>
-                    <p class="s-16 color--grey">Enabling Better Financial Decisions with Smart, Personalized Support</p>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="txt-block left-column">
-                    <p class="">Easy AI Loans is a financial consultation and services company dedicated to helping individuals choose the right loan with ease and confidence. We work closely with our clients to understand their needs and connect them with suitable options through our network of multiple NBFC partners, ensuring a smooth, transparent, and well-guided experience from start to finish.</p>
-                    <p class="">Our objective is simple – remove uncertainty from borrowing and replace it with clarity, process, and informed action.</p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="txt-block right-column">
-                    <p class="w-700">Your Growth Is Our Priority</p>
-                    <ul class="simple-list">
-                        <li class="list-item">
-                            <p>We recognize that every applicant’s financial profile is different. Instead of generic recommendations, our system evaluates individual inputs to present structured options aligned with user requirements.</p>
-                        </li>
-                        <li class="list-item">
-                            <p class="mb-0">Transparency, guided steps, and clear communication form the foundation of our approach.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<hr class="divider">
-
-<!-- why paisapocket section starts -->
-<section id="features-6" class="py-80 features-section division">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-9">
-                <div class="section-title mb-50">
-                    <h2 class="s-28">Why <span class="color--green-500">Easy AI Loans</span></h2>
-                    <p class="s-16 color--grey">Here's What Sets Our Platform Apart</p>
-                </div>
-            </div>
-        </div>
-        <div class="fbox-wrapper text-center">
-            <div class="row gx-3 gy-2 row-cols-1 row-cols-md-2 row-cols-lg-4">
-                <div class="col">
-                    <div class="fbox-8 fbox--hover fb-1 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-layers-1"></span>
-                            </div>
-                        </div>
-                        <div class="fbox-txt">
-                            <h4 class="s-18 w-700">Strategic Lending Network</h4>
-                            <p>Access multiple NBFC-backed lending options through a single digital interface.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="fbox-8 fbox--hover fb-2 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-computer-1"></span>
-                            </div>
-                        </div>
-                        <div class="fbox-txt">
-                            <h4 class="s-18 w-700">Completely Online Process</h4>
-                            <p>From eligibility check to document submission, everything happens digitally.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="fbox-8 fbox--hover fb-2 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-click-1"></span>
-                            </div>
-                        </div>
-                        <div class="fbox-txt">
-                            <h4 class="s-18 w-700">Self-Apply Feature</h4>
-                            <p>Take control of your finances while enjoying the benefits of excellent provisions.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="fbox-8 fbox--hover fb-3 r-12 border">
-                        <div class="fbox-ico ico-50">
-                            <div class="shape-ico color--theme">
-                                <span class="flaticon-tech-support"></span>
-                            </div>
-                        </div>
-                        <div class="fbox-txt">
-                            <h4 class="s-18 w-700">Hire Loan Agent</h4>
-                            <p>Get guidance from experienced professionals to improve your loan approval possibilities.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- why paisapocket section ends -->
-
-<!-- Trust Badges Section starts -->
-<div id="statistic-1" class=" bg--green-400 ct-03 py-50 statistic-section division">
+<div id="statistic-1" class=" bg--green-400 ct-03 py-80 statistic-section division">
     <div class="container">
         <div class="statistic-5-wrapper">
             <div class="row row-cols-2 row-cols-md-4">
-                <div class="col sec-1">
+                <div class="col sec-1 border-end border-light">
                     <div id="sb-5-1" class="text-center">
                         <div class="statistic-block">
                             <div class="statistic-digit">
@@ -190,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col sec-2">
+                <div class="col sec-2 border-end border-light">
                     <div id="sb-5-3" class="text-center">
                         <div class="statistic-block">
                             <div class="statistic-digit">
@@ -204,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col sec-3">
+                <div class="col sec-3 border-end border-light">
                     <div id="sb-5-2" class="text-center">
                         <div class="statistic-block">
                             <div class="statistic-digit">
@@ -236,158 +109,219 @@
         </div>
     </div>
 </div>
-<!-- Trust Badges Section ends -->
 
-<!-- Products Intro section starts -->
-<section id="products" class="py-80 features-section division">
+<section class="w-100">
+    <div class="container-fluid px-0">
+        <div class="row g-0 align-items-center">
+            <div class="col-lg-6">
+                <img src="{{ asset('front/images/offer-page-bg.jpg') }}" alt="Consultation" class="img-fluid w-100 h-100 object-fit-cover">
+            </div>
+
+            <div class="col-lg-6 d-flex align-items-center">
+                <div class="px-4 px-lg-5 py-5">
+                    <h2 class="mb-3">Why PaisaPocket?</h2>
+                    <p class="mb-4">
+                        Being one of the most appreciated and praised financial consultation and service providers,
+                        PaisaPocket boasts of serving a huge number of customers in the most satisfied and professional manner.
+                        The company has garnered a great volume of acclaim due to its authentic services in giving industry-facing guidance.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">✔ 20000+ Satisfied Customers</li>
+                        <li class="mb-2">✔ 100% Online Process</li>
+                        <li class="mb-2">✔ Consultation by Acclaimed Experts</li>
+                        <li class="mb-2">✔ On-Call Assistance</li>
+                        <li class="mb-2">✔ Partnered With Multiple NBFCs</li>
+                        <li>✔ Free Expert Consultancy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="divider">
+
+<section id="features-5" class="py-80 bg--green-100 features-section division">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-10">
-                <div class="section-title mb-40">
+            <div class="col-md-10 col-lg-9">
+                <div class="section-title mb-70">
                     <h2 class="s-28">Advance Your <span class="color--green-500">Financial Aspects Smartly</span></h2>
                     <p class="s-16 color--grey">Select the option that matches your comfort level and application preference.</p>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg-10 align-items-center m-auto">
-            <div class="row fbox-wrapper text-center align-items-center m-auto border border--grey shadow rounded-3 mb-4">
-                <div class="col-12 col-lg-6 order-2 order-lg-1">
-                    <div class="img-block right-column text-center">
-                        <img class="img-fluid light-theme-img"
-                            src="{{ asset('front/images/Easy-Self-Apply-ai.png') }}"
-                            alt="feature-image">
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 order-1 order-lg-2">
-                    <div class="txt-block right-column">
-                        <h3 class="s-22 w-700 mb-2">Quick Self-Apply</h3>
-                        <p class="mb-2">
-                            Get instant access to professional digital loan consultation, direct loan application links, and personalized loan offers from our trusted NBFC and banking partners.
-                        </p>
-                        <a href="{{ route('self.apply.main') }}"
-                            class="btn r-04 btn--theme hover--tra-black">
-                            Apply Now
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row fbox-wrapper text-center align-items-center m-auto border border--grey shadow rounded-3">
-                <div class="col-12 col-lg-6 order-2 order-lg-1">
-                    <div class="txt-block left-column">
-                        <h3 class="s-22 w-700 mb-2">Hire Loan Agent</h3>
-                        <p class="mb-2">
-                            Sit back and relax while a dedicated expert loan agent manages the entire loan process for you, from application to bank coordination, helping improve your chances of approval.
-                        </p>
-                        <a href="{{ route('loan.agent.main') }}"
-                            class="btn r-04 btn--theme hover--tra-black">
-                            Apply Now
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 order-1 order-lg-2">
-                    <div class="img-block right-column text-center">
-                        <img class="img-fluid light-theme-img"
-                            src="{{ asset('front/images/Hire-Loan-Agent-ai.png') }}"
-                            alt="feature-image">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-</section>
-<!-- Products Intro section ends -->
-
-<!-- Quick and swift steps section starts -->
-<section id="features-2" class="py-80 bg--green-100 features-section division">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-9">
-                <div class="section-title mb-40">
-                    <h2 class="s-28">How it <span class="color--green-500">works!</span></h2>
-                    <p class="s-16 color--grey">Apply in 6 Simple Steps</p>
-                </div>
-            </div>
-        </div>
 
         <div class="fbox-wrapper text-center">
+            <div class="row d-flex align-items-center justify-content-center m-auto">
+                <div class="col-md-5 mb-3">
+                    <div class="fbox-5 fb-2 bg--white-100 r-16 p-0">
+                        <div class="w-100 h-100">
+                            <img class="img-fluid w-100 h-100 rounded-top-4" src="{{ asset('front/images/Img-22.png') }}" alt="feature-image">
+                        </div>
+                        <div class="p-3">
+                            <div class="fbox-txt mb-3">
+                                <h5 class="s-26 w-700">Quick Self-Apply</h5>
+                                <p>Get instant access to professional digital loan consultation, direct loan application links, and personalized loan offers from our trusted NBFC and banking partners.</p>
+                            </div>
+                            <a href="{{ route('self.apply.main') }}"
+                                class="btn r-04 btn--theme hover--tra-black">
+                                Apply Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 mb-3">
+                    <div class="fbox-5 fb-2 bg--white-100 r-16 p-0">
+                        <div class="w-100 h-100">
+                            <img class="img-fluid w-100 h-100  rounded-top-4" src="{{ asset('front/images/Img-23.png') }}" alt="feature-image">
+                        </div>
+                        <div class="p-3">
+                            <div class="fbox-txt mb-3">
+                                <h5 class="s-26 w-700">Hire Loan Agent</h5>
+                                <p> Sit back and relax while a dedicated expert loan agent manages the entire loan process for you, from application to bank coordination, helping improve your chances of approval.</p>
+                            </div>
+                            <a href="{{ route('loan.agent.main') }}"
+                                class="btn r-04 btn--theme hover--tra-black">
+                                Apply Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="divider">
+
+<section class="py-80 ct-02 content-section division">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <div class="img-block left-column">
+                    <img class="img-fluid" src="{{ asset('front/images/Compny-page-1.png') }}" alt="content-image">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="txt-block right-column">
+                    <p><span class="section-id">About <span class="color--green-500">PaisaPocket</span></span></p>
+                    <h2 class="s-24 w-700">Enabling Better Financial Decisions with Smart, Personalized Support</h2>
+                    <ul class="simple-list">
+                        <p>PaisaPocket is a financial consultation and services company dedicated to helping individuals choose the right loan with ease and confidence. We work closely with our clients to understand their needs and connect them with suitable options through our network of multiple NBFC partners.</p>
+
+                        <ul class="simple-list">
+                            <li class="list-item">
+                                <p>We recognize that every applicant’s financial profile is different. Instead of generic recommendations, our system evaluates individual inputs to present structured options aligned with user requirements.</p>
+                            </li>
+                            <li class="list-item">
+                                <p class="mb-0">Transparency, guided steps, and clear communication form the foundation of our approach.</p>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="divider">
+
+<section id="features-2" class="py-80 bg--green-100 features-section division">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-12 col-lg-12">
+                <div class="section-title mb-40 text-start">
+                    <p><span class="section-id">How it <span class="color--green-500">works!</span></span></p>
+                    <h2 class="s-28">Here’s What Makes Us The Ideal Choice For You</h2>
+                    <p class="s-16 color--grey">Our team of experts strives to provide the best services to help you achieve your goals easily.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fbox-wrapper text-start">
             <div class="row g-4 row-cols-1 row-cols-md-3 row-cols-lg-3">
                 <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
+                    <div class="h-100 w-100">
                         <div class="fbox-ico ico-50">
                             <div class="shape-ico color--theme">
                                 <span class="flaticon-mobile-search"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>Start by providing your mobile number and the name registered with your bank.</p>
+                        <div class="fbox-txt mb-30">
+                            <h5>100% Online Process</h5>
+                            <p>Rejoice the streamlined online process and take advantage of our top-notch financial advice at your fingertips.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
+                    <div class=" h-100 w-100">
                         <div class="fbox-ico ico-50">
                             <div class="shape-ico color--theme">
                                 <span class="flaticon-computer"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>Complete your financial information for preliminary eligibility screening.</p>
+                        <div class="fbox-txt mb-30">
+                            <h5>Collaboration With Top NBFCs</h5>
+                            <p>Take advantage of our exciting partnership with top NBFCs and process your loan with ease from the comfort of your home.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
+                    <div class=" h-100 w-100">
                         <div class="fbox-ico ico-50">
                             <div class="shape-ico color--theme">
                                 <span class="flaticon-credit-card"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>Based on the details you enter, our system displays loan options that may be available to you. These are not final and will be reviewed by the lender.</p>
+                        <div class="fbox-txt mb-30">
+                            <h5>Incredible Subscription Offer</h5>
+                            <p>Enjoy and take full advantage of the numerous benefits that are cleverly integrated into our subscription plans.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
+                    <div class=" h-100 w-100">
                         <div class="fbox-ico ico-50">
                             <div class="shape-ico color--theme">
                                 <span class="flaticon-time"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>To gain access to the pre-approved loan offers displayed, simply purchase the subscription plan that best fits your needs. </p>
+                        <div class="fbox-txt mb-30">
+                            <h5>Free Loan Consultation</h5>
+                            <p>Our experts are always available to assist you in empowering and growing your finances. </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
+                    <div class=" h-100 w-100">
                         <div class="fbox-ico ico-50">
                             <div class="shape-ico color--theme">
                                 <span class="flaticon-check-1"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>Submit required documents for profile verification and lender processing.</p>
+                        <div class="fbox-txt mb-30">
+                            <h5>Personalized Consultation</h5>
+                            <p>We understand that each client is unique and has different financial needs; as a result, our experts are dedicated to creating plans that are specifically tailored to those needs.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col d-flex">
-                    <div class="fbox-7 fbox--hover bg--white-100 fb-1 r-12 h-100 w-100">
+                    <div class=" h-100 w-100">
                         <div class="fbox-ico ico-50">
                             <div class="shape-ico color--theme">
                                 <span class="flaticon-profits"></span>
                             </div>
                         </div>
-                        <div class="fbox-txt">
-                            <p>The respective NBFC independently reviews the application and makes the final decision on approval and disbursement as per their policies.</p>
+                        <div class="fbox-txt mb-30">
+                            <h5>Seamless Process</h5>
+                            <p>Relax and enjoy a seamless process and experience ease as our financial experts assist you throughout the process.</p>
                         </div>
                     </div>
                 </div>
@@ -396,9 +330,9 @@
         </div>
     </div>
 </section>
-<!-- Quick and swift steps section end -->
 
-<!-- eligibility calculator starts -->
+<hr class="divider">
+
 <section id="features-21" class="py-80 features-section division">
     <div class="container">
         <div class="row justify-content-center">
@@ -415,7 +349,6 @@
                     <form id="emicalculatorform" class="comment-form">
                         <div class="form-horizontal" id="emicalculatorinnerform">
                             <div class="row">
-                                <!-- Loan Amount slider section starts -->
                                 <div class="col-md-12">
                                     <div class="row form-group lamount flex-display align-items-center">
                                         <label class="col-6 control-label s-18 w-500" for="loanamount">Loan amount</label>
@@ -461,8 +394,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <!-- Loan Amount slider section ends -->
-                                <!-- Interest Rate slider section starts -->
                                 <div class="col-md-12 mt-100">
                                     <div class="row form-group lint flex-display align-items-center">
                                         <label class="col-6 s-18 w-500 control-label" for="loaninterest">Interest rate</label>
@@ -500,8 +431,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <!-- Interest Rate slider section ends -->
-                                <!-- Loan Tenure slider section starts -->
                                 <div class="col-md-12 mt-100">
                                     <div class="row form-group lterm flex-display align-items-center">
                                         <label class="col-6 s-18 w-500 control-label" for="loanterm">Select EMI option</label>
@@ -549,7 +478,6 @@
                                         </span>
                                     </div>
                                 </div>
-                                <!-- Loan Tenure slider section ends -->
                             </div>
                         </div>
                         <input id="loanproduct" name="loanproduct" value type="hidden">
@@ -636,11 +564,10 @@
         </div>
     </div>
 </section>
-<!-- eligibility calculator ends -->
-{{--<hr class="divider">--}}
 
-<!-- Testimonioals section starts -->
-<section id="reviews-1" class="py-80 reviews-section">
+<hr class="divider">
+
+<section id="reviews-1" class="py-80 bg--green-100 reviews-section">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-12">
@@ -652,16 +579,46 @@
         </div>
         <div class="row">
             <div class="col">
-                <!-- Testimonials carousel start  -->
+
                 @include('partials.front.testimonials')
-                <!-- Testimonials carousel end  -->
+
             </div>
         </div>
     </div>
 </section>
-<!-- Testimonioals section ends -->
 
-<!-- Contact Start -->
+<hr class="divider">
+
+<section id="integrations-2" class="py-80 integrations-section">
+    <div class="container">
+        <div class="r-12 text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-10">
+                    <div class="section-title mb-50">
+                        <h2 class="s-28">Backed by Trusted <span class="color--green-500">Lending Institutions</span></h2>
+                        <p class="s-16 color--grey">We collaborate with top NBFCs to expand structured credit access across India.</p>
+                    </div>
+                </div>
+            </div>
+            @php
+            $lists = nbfcsList();
+            @endphp
+
+            <div class="bank-crousel">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="owl-carousel brands-carousel-6 emi-carousel">
+                            {!! $lists['carousel'] !!}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="divider">
+
 <section id="contact" class="py-80 bg--green-100">
     <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -767,7 +724,8 @@
         </div>
     </div>
 </section>
-<!-- Contact End -->
+
+<hr class="divider">
 
 {{-- Wlecome message modal show here --}}
 @if($msg->status == 1)

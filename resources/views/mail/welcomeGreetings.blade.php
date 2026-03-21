@@ -112,7 +112,7 @@
                                                                                         <td align="center"
                                                                                             style="padding: 20px; margin: 0; line-height: 2rem;    background-color: #b4c7d5;border-top-right-radius:12px;border-top-left-radius:12px;">
                                                                                             <p
-                                                                                                style="font-size:2.2rem;color:#0e5281;font-weight:600">
+                                                                                                style="font-size:2.2rem;color:#0f543f;font-weight:600">
                                                                                                 Congratulations! 
                                                                                             </p>
                                                                                         </td>
@@ -159,7 +159,7 @@
                                                                     <tr>
                                                                         <td class="es-m-p20b" align="left"
                                                                             style="padding: 0; margin: 0; width: 600px;">
-                                                                            <h3 style="text-align:center; color: #0e5281;">
+                                                                            <h3 style="text-align:center; color: #0f543f;">
                                                                                 Order Details
                                                                             </h3>
                                                                             <hr>
