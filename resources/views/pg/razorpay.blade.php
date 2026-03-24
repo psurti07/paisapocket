@@ -44,7 +44,7 @@
           "currency": "INR",
           "order_id": orderid,
           "name": "Paisapocket",
-          "image": "https://paisapocket.com/uat/assets/images/logo/favicon.ico",
+          "image": "https://paisapocket.com/assets/images/logo/favicon.ico",
           "description": description,
           "prefill": {
             "name": fullname,

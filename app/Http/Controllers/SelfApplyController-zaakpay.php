@@ -1550,7 +1550,7 @@ dwIDAQAB
                 "method" => "POST",
                 "url" => "payin/dynamic-qr",
                 "parameter" => [
-                    //'receiver_vpa' => "cpy.kredbaz@fin",
+                    //'receiver_vpa' => "cpypaisapoacket@fin",
                     'receiver_vpa' => "cpy.paisapocket@finobank",
                     'amount' => round($grandAmount), // amount
                     'remarks' => "Dynamic QR", // remarks

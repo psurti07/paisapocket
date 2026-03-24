@@ -18,9 +18,9 @@
                 height: 100%;
                 background-repeat: repeat;
                 background-position: center top;
-                background-image: url(https://paisapocket.com/uat/assets/images/mail-bgm.png);
+                background-image: url(https://paisapocket.com/assets/images/mail-bgm.png);
                 background-color: #f9f9f9;
-                " background="https://paisapocket.com/uat/front/images/bg-01.webp">
+                " background="https://paisapocket.com/front/images/bg-01.webp">
         <tbody>
         <tr>
             <td class="es-m-margin" valign="top" style="padding: 0; margin: 0;">
@@ -60,9 +60,9 @@
                                                                 class="es-m-txt-c"
                                                                 style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
                                                                 <a target="_blank"
-                                                                   href="https://paisapocket.com/uat/"
+                                                                   href="https://paisapocket.com/"
                                                                    style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                    <img src="https://paisapocket.com/uat/front/images/logo/logo.png"
+                                                                    <img src="https://paisapocket.com/front/images/logo/logo.png"
                                                                          alt="Paisapocket"
                                                                          style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                          width="190"
@@ -110,7 +110,7 @@
                                                         <tbody>
                                                         <tr>
                                                             <td align="center"
-                                                                style="padding: 20px; margin: 0; line-height: 2rem;    background-color: #b4c7d5;border-top-right-radius:12px;border-top-left-radius:12px;">
+                                                                style="padding: 20px; margin: 0; line-height: 2rem;    background-color: #f9f6ee;border-top-right-radius:12px;border-top-left-radius:12px;">
                                                                 <p
                                                                     style="font-size:2.2rem;color:#0f543f;font-weight:600">
                                                                     Congratulations !
@@ -154,7 +154,7 @@
                                         style="padding: 0; margin: 0; padding-top: 10px; padding-bottom: 10px;">
                                         <table cellpadding="0" cellspacing="0" class="es-left"
                                                align="left"
-                                               style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #b4c7d5;border: 1px solid #0f543f;  border-radius: 12px; display: block;">
+                                               style="mso-table-lspace: 0;mso-table-rspace: 0;border-collapse: collapse;border-spacing: 0;float: left;background-color: #f9f6ee;border: 1px solid #0f543f;  border-radius: 12px; display: block;">
                                             <tbody>
                                             <tr>
                                                 <td class="es-m-p20b" align="left"
@@ -170,7 +170,7 @@
                                                         <tbody>
                                                         <tr>
                                                             <td
-                                                                style="padding:0  20px; margin: 0; line-height: 1.5rem;background-color: #b4c7d5; color:#000;font-size:16px; border-radius: 12px;">
+                                                                style="padding:0  20px; margin: 0; line-height: 1.5rem;background-color: #f9f6ee; color:#000;font-size:16px; border-radius: 12px;">
                                                                 <p style="margin: 0;">Full Name :<span></span>
                                                                 <h5 style="margin:0;">{{ $fullname }}</h5>
                                                                 </p>
@@ -182,7 +182,7 @@
                                                                 </p>
                                                             </td>
                                                             <td align="left"
-                                                                style="padding:0 20px; margin: 0; line-height: 1.5rem;background-color: #b4c7d5;  color:#000;font-size:16px;border-radius: 12px;">
+                                                                style="padding:0 20px; margin: 0; line-height: 1.5rem;background-color: #f9f6ee;  color:#000;font-size:16px;border-radius: 12px;">
                                                                 <p style="margin: 0;">Mobile :
                                                                 <h5 style="margin: 0;">+91&nbsp;{{ $mobile }}</h5>
                                                                 </p>
@@ -258,19 +258,19 @@
                                                                                                 ">
                                                                     <a target="_blank"
                                                                        style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                       href="https://paisapocket.com/uat/privacy-policy">
+                                                                       href="https://paisapocket.com/privacy-policy">
                                                                         Privacy Policy
                                                                     </a>
                                                                     &nbsp; | &nbsp;
                                                                     <a target="_blank"
                                                                        style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                       href="https://paisapocket.com/uat/terms-and-conditions">
+                                                                       href="https://paisapocket.com/terms-and-conditions">
                                                                         Terms &amp; Conditions
                                                                     </a>
                                                                     &nbsp; | &nbsp;
                                                                     <a target="_blank"
                                                                        style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                       href="https://paisapocket.com/uat/raise-request">
+                                                                       href="https://paisapocket.com/raise-request">
                                                                         Raise a request
                                                                     </a>
                                                                     &nbsp; | &nbsp;
